@@ -180,7 +180,8 @@ config = {
       docker
       appimage-run
       freerdp
-      davinci-resolve
+      kdenlive
+      blender
       yazi
       inkscape
       ghostty
@@ -282,10 +283,10 @@ config = {
   security.pam.services.sddm.enableGnomeKeyring = true;
 
   # Please this is just automatically finds my second SSD, so don't copy all.
-  fileSystems."/home/asterlusnce/Haibara Ai" = {
-  device = "/dev/disk/by-uuid/39b58863-aede-4a5b-a992-6fba72e2f080";
-  fsType = "btrfs";
-  };
+  #fileSystems."/home/asterlusnce/Haibara Ai" = {
+  #device = "/dev/disk/by-uuid/39b58863-aede-4a5b-a992-6fba72e2f080";
+  #fsType = "btrfs";
+  #};
 
   programs.labwc.enable = true;
 
