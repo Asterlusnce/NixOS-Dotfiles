@@ -288,6 +288,7 @@ config = {
   #fsType = "btrfs";
   #};
 
+  # LabWC
   programs.labwc.enable = true;
 
   environment.sessionVariables= {
